@@ -5,14 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="scripts.js"></script>
-    <style>
-        body {
-            background-color: #3b3b3b;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="buttons">
+        <div class="left">
+            <button class="play" id="Rock">Rock</button>
+            <button class="play" id="Paper">Paper</button>
+            <button class="play" id="Scissors">Scissors</button>
+        </div>
+        <div class="right">
+            <button class="reset" id="Reset">Reset Game</button>
+        </div>
+    </div>
+    <div class="counter">
+        <div class="rules">Get 5 points to win the game!</div>
+        <div class="title">Total Points:</div>
+        <div class="result">
+            
+            <div class="player">
+                <div class="name">Player:</div>
+                <div class="score">0</div>
+            </div>
+            <div class="computer">
+                <div class="name">Computer:</div>
+                <div class="score">0</div>
+            </div>
+        </div>
+    </div>
+    <div class="results">
+        <div id="blank"></div>
+    </div>
 </body>
+<script src="scripts.js"></script>
 </html>
