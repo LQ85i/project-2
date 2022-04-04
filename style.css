@@ -1,0 +1,65 @@
+body {
+    background-color: #3b3b3b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons {
+    display: flex;
+    flex: 1;
+    width: 300px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buttons .left-inactive{
+    visibility: hidden;
+}
+.counter {
+    display: flex;
+    background-color: #ededed;
+    width: 300px;
+    height: 80px;
+    border: solid black 3px;
+    border-radius: 4px;
+    margin: 4px;
+    box-shadow: 1px 1px 5px black;
+    align-items: center;
+    flex-direction: column;
+    align-items: stretch;
+}
+.counter .rules {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+}
+.counter .title {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+}
+.counter .result {
+    display: flex;
+    flex: 1;
+    border: solid 1px black;
+}
+.counter .result .player {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+    border-right: solid 1px black;
+}
+.counter .result .computer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-left: solid 1px black;
+}
